@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Calculator{
         public float Addtion(float num1, float num2)
@@ -22,20 +22,20 @@ public class Calculator{
             return div;
         }
         public static void main(String[] args){
-            float num1;
-            float num2;
-            Scanner sc=new Scanner(System.in);
-            System.out.println("Enter the Two Numbers");
-            System.out.print("Enter the first Number:");
-            num1=sc.nextFloat();
-            System.out.print("Enter the Second Number:");
-            num2=sc.nextFloat();
+            float num1=2;
+            float num2=3;
+         //   Scanner sc=new Scanner(System.in);
+           // System.out.println("Enter the Two Numbers");
+         //   System.out.print("Enter the first Number:");
+          //  num1=sc.nextFloat();
+        //    System.out.print("Enter the Second Number:");
+         //   num2=sc.nextFloat();
             Calculator c=new Calculator();
             System.out.println("The addtion of two Numbers = "+c.Addtion(num1,num2));
             System.out.println("The substarction of two Numbers = "+c.Substraction(num1,num2));
             System.out.println("The multiplication of two Numbers = "+c.Multiplication(num1,num2));
             System.out.println("The division of two Numbers = "+c.Division(num1,num2));
-            sc.close();
+            //sc.close();
         }
 
 }
